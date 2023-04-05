@@ -1,0 +1,20 @@
+WITHOUT ANY ANGLE_BRECKETS
+
+git init - Initialize your current work directory
+git branch -m <new_branch-name> - alter current-workbranch name
+git add <file_name/directory_name> - add files to check
+git add . - add all project to check
+git commit -m "<message>" - commit all changes
+git log - log info about cw repo
+git status - status of project
+
+STATUSES
+    ↓
+Untracked - repo has already initialized but GIT doesn't check what happening
+    ↓
+ADD - repo has already added to "check"
+    ↓
+MODIFIED - smth had been changed
+
+
+.gitignore - file where we will keep files/directory which should be private

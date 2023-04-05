@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat/static/Montserrat-ExtraLightItalic.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+#app {
+    background: linear-gradient(var(--main-bg, var(--secodary-bg)));
+    color: var(--main-txt-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--width-m);
+}
+
+.logo {
+    width: var(--width-m);
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.nav-link {
+
+}
+
+.product-title {
+    color: var(--main-txt-color);
+    font-family: var(--secodary-bg);
+    font-size: var(--fs-m);
+    margin-right: var(--margin-xl);
+}
+
+.product-img-wrapper {
+    width: var(--width-xxl);
+}
+
+.product-img {
+    width: 2rem;
+}
+
+.input {
+    border: none;
+    border-bottom: 2px solid var(--secodary-bg);
+    background: inherit;
+}

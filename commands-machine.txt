@@ -1,0 +1,2 @@
+Is - List of directories/files in CWD
+Is -a - list of directories/files in CWD + hidden directories/files
