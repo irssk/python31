@@ -1,5 +1,58 @@
+@import url("./variable.css");
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+#app {
+    background: linear-gradient(var(--main-bg) , var(--secodary-bg));
+    color: var(--main-txt-color);
+    font-family: var(--main-ff);
+    padding: var(--padding-m);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-m);
+}
+
+.logo {
+    width: var(--width-m);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.input {
+    border: none;
+    border-bottom: 2px solid var(--secodary-bg);
+    background: inherit;
+}
+
+.nav-link {
+
+}
+
+.main {
+
+}
+
+.footer {
+
 }
