@@ -7,7 +7,7 @@
 }
 
 #app {
-    background: linear-gradient(var(--main-bg) , var(--secodary-bg));
+    background: linear-gradient(var(--main-bg) , var(--secondary-bg));
     color: var(--main-txt-color);
     font-family: var(--main-ff);
     padding: var(--padding-m);
@@ -41,7 +41,7 @@ li {
 
 .input {
     border: none;
-    border-bottom: 2px solid var(--secodary-bg);
+    border-bottom: 2px solid var(--secondary-bg);
     background: inherit;
 }
 
@@ -51,6 +51,32 @@ li {
 
 .main {
 
+}
+
+.product {
+    color: var(--secondary-txt-color);
+    margin-top: var(--margin-xl);
+}
+
+.product-title-wrapper {
+    display: flex;
+    justify-content: end;
+}
+
+.product-title {
+    color: var(--main-txt-color);
+    font-family: var(--secondary-ff);
+    font-size: var(--font-size-m);
+    margin-right: var(--margin-xl);
+    text-shadow: 3px 4px 3px var(--secondary-bg);
+}
+
+.product-img {
+    width: var(--width-xxl);
+}
+
+.product-paragraph {
+    margin-top: var(--margin-m);
 }
 
 .footer {
