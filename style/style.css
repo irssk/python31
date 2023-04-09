@@ -28,28 +28,17 @@ a {
     padding: .8rem;
 }
 
-.header , .nav {
+.header , .nav , .logo, .box {
     display: flex;
     justify-content: space-between;
 }
 
-.footer , .header {
+.footer , .header, .box__img {
     padding: 1rem;
 }
 
 .header {
     align-items: center;
-}
-
-.input {
-    padding: .2rem 3rem;
-    border: none;
-    background: inherit;
-    border-bottom: 1px solid cyan;
-    color: white;
-    font-size: 1.1rem;
-    font-family: "Montserrat";
-    width: 100%;
 }
 
 .logo {
@@ -58,28 +47,32 @@ a {
 
 .nav {
     text-transform: uppercase;
-    width: 40%;
+    width: 100%;
     padding: .8rem;
 }
 
-.container {
+.box {
+    padding: 2rem;
+}
 
+.box__img {
+    width: 10rem;
+}
+
+.input {
+    
 }
 
 .main {
-
+    height: 70vh;
 }
 
 .button {
-    padding: .3rem 2rem;
-    font-size: 1.1rem;
-    background: inherit;
-    border: none;
-    color: aliceblue;
-    border: 1px solid cyan;
-    border-radius: 2rem 0rem;
+    
 }
 
 .footer {
-    text-align: left;
+    display: flex;
+    padding: 2rem;
+    justify-content: space-evenly;
 }
