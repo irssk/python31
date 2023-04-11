@@ -15,8 +15,6 @@
 }
 
 a {
-    display: flex;
-    justify-content: center;
     text-decoration: none;
     color: inherit;
  }
@@ -45,7 +43,7 @@ a {
     padding: .8rem;
 }
 
-.header , .box , p , .button , #app , .header__img {
+.header , .box , .button , #app , .header__img , p , a {
     display: flex;
     justify-content: space-between;
 }
