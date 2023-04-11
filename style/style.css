@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Poppins";
-    src: url("/fonts/Poppins/Poppins-LightItalic.ttf");
+    src: url("/fonts/Poppins/Poppins-BoldItalic.ttf");
 }
 
 @font-face {
-    font-family: "Montserrat";
-    src: url("/fonts/Montserrat/static/Montserrat-ThinItalic.ttf");
+    font-family: "Gentium";
+    src: url("/fonts/Gentium/GentiumBookPlus-Italic.ttf");
 }
 
 * {
@@ -15,40 +15,52 @@
 }
 
 a {
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     color: inherit;
  }
 
-#app {
+ h1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     font-family: "Poppins";
-    background: linear-gradient(darkmagenta , magenta);
+    font-size: 20px;
+    text-transform: uppercase;
+    background: linear-gradient(darkmagenta , #EE82EE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     color: aliceblue;
+    display: table;
+    margin: 20px auto;
+ }
+
+ p {
+    font-family: "Gentium";
+    width: 40%;
+ }
+
+#app {
+    background: linear-gradient(darkmagenta , magenta);
     padding: .8rem;
 }
 
-.header , .nav , .logo, .box {
+.header , .box , p , .button , #app , .header__img {
     display: flex;
     justify-content: space-between;
 }
 
-.footer , .header, .box__img {
+.footer , .box__img {
     padding: 1rem;
 }
 
 .header {
     align-items: center;
+    padding: 2rem;
 }
 
-.logo {
+.header__img {
     width: 4rem;
-}
-
-.nav {
-    text-transform: uppercase;
-    width: 100%;
-    padding: .8rem;
 }
 
 .box {
@@ -56,23 +68,24 @@ a {
 }
 
 .box__img {
-    width: 10rem;
-}
-
-.input {
-    
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+    float: right;
 }
 
 .main {
     height: 70vh;
 }
 
-.button {
-    
-}
-
 .footer {
     display: flex;
     padding: 2rem;
     justify-content: space-evenly;
+}
+
+.social__img {
+    display: flex;
+    justify-content: space-evenly;
+    width: 2rem;
 }
